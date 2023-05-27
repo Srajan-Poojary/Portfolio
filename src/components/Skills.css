@@ -1,0 +1,76 @@
+
+
+@font-face {
+    font-family: 'GeneralSans-Semibold';
+    src: url('../assests/fonts/GeneralSans-Semibold.woff2') format('woff2'),
+         url('../assests/fonts/GeneralSans-Semibold.woff') format('woff'),
+         url('../assests/fonts/GeneralSans-Semibold.ttf') format('truetype');
+         font-weight: 200 700;
+         font-display: swap;
+         font-style: normal;
+  }
+
+.skills {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 256px;
+    box-sizing: border-box;
+}
+
+.tech-item {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    box-sizing: border-box;
+    box-shadow: 0 8px 16px -4px rgba(0,0,0,.2);
+    border-radius: 16px;
+}
+
+.tech-item svg {
+    font-size: 64px;
+    color: #1e3851;
+}
+
+.tech-item-label {
+    font-size: 10pt;
+    font-family: 'GeneralSans-Semibold';
+    font-weight: 700;
+    margin-top: 24px;
+    width: 100%;
+    text-align: center;
+    color: #1e3851;
+}
+
+.skill-title {
+    color: #1e3851;
+    font-size: 48px;
+    width: 100%;
+    margin-bottom: 32px;
+    text-align: center;
+    font-family: 'GeneralSans-Semibold';
+    font-weight: 700;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    padding-bottom: 32px;
+}
+
+@media (min-width: 825px) {
+    .skills {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    .tech-item {
+        padding: 32px;
+        height: 200px;
+        width: 100%;
+        /* min-width: 200px; */
+    }
+
+    .tech-item-label {
+        font-size: 18px;
+    }
+}
